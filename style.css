@@ -1,4 +1,129 @@
-table, tbody, th, tr, td {
-    border: 1px solid black;
+*,::before,::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color:#2b2d42;
+    font-size: 0.9rem;
+    background-color: #edf2f4;
+}
+
+table {
+    border-collapse: collapse;
+    box-shadow: 0 5px 10px #e5e5e5;
+    background-color: #ffff;
+    text-align: left;
+    overflow: hidden;
+    border-radius: 3px;
+
+}
+
+thead {
+    box-shadow: 0 5px 10px #e5e5e5;
+    
+    
+}
+.button-general {
+    display: flex;
+}
+
+i{
+    padding-right: 5px;
+    padding-left: 0;
+}
+
+
+.button-delete {
+    border-radius: 5px;
+    padding: 0.6rem 0.6rem;
+    text-align: center;
+    background-color: #ef233c;
+    color: #ffff;
+    box-shadow: 0 2px 5px #e5e5e5;
+    font-weight: 400;
+    display: flex;
+}
+
+.button-delete:hover {
+    background-color: #d90429;
+    transition: 0.5s;
+}
+
+.button-edit {
+    border-radius: 5px;
+    padding: 0.6rem 0.6rem;
+    text-align: center;
+    background-color: #d4e09b;
+    color: #386641;
+    box-shadow: 0 2px 5px #e5e5e5;
+    margin-right: 0.5rem;
+    font-weight: 400;
+    display: flex;
+}
+
+.button-edit:hover{
+    background-color: #6a994e;
+    color: white;
+    transition: 0.5s;
+}
+
+.button-new {
+    display: flex;
+    border-radius: 5px;
+    padding: 0.6rem 1rem;
+    text-align: center;
+    justify-content: center;
+    background-color: #d4e09b;
+    color: #386641;
+    box-shadow: 0 2px 5px #e5e5e5;
+}
+
+
+.button-new:hover{
+    background-color: #6a994e;
+    color: white;
+    transition: 0.5s;
+}
+
+th {
+    padding: 1.5rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.status {
+    border-radius: 2px;
+    padding: 0.4rem 1rem;
+    text-align: center;
+}
+
+.status-si {
+    background-color: #d4e09b; 
+    color: #386641;
+    font-weight: 800;
+    }
+
+.status-no {
+    background-color:#ef233c;
+    font-weight: 800;
+}    
+
+
+td {
+    padding: 0.5rem 1.5rem;
 
 }

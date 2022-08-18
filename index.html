@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap" rel="stylesheet">
+
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
     <title>Document</title>
 </head>
 <body>
@@ -13,40 +21,61 @@
 
     <thead>
         <tr>
-            <th><a href="">Nuevo</a></th>
-            <th>Codigo</th>
-            <th>Descripcion</th>
-            <th>Codigo de barra</th>
+            <th><a class="button-new" href=""><i class="bi bi-plus-circle-fill"></i>Nuevo</a></th>
+            <th>Código</th>
+            <th>Descripción</th>
+            <th>Código de barra</th>
             <th>Precio Unitario</th>
             <th>Stock</th>
-            <th>Proveedor 1</th>
+            <th>Proveedor</th>
             <th>Estado</th>
-            <th>Categoria</th>
+            <th>Categoría</th>
         </tr>
     </thead>
 
     <tbody>
         <tr>
-            <td> <a href="">editar</a> <a href="">eliminar</a> </td>
+            <td class="button-general">
+                <a class="button-edit" href="#"><i class="bi bi-pencil-fill"></i>Editar</a>
+                <a class="button-delete" href="#"><i class="bi bi-trash"></i> Eliminar</a>
+            </td>
             <td>1</td>
             <td>martillo</td>
             <td>101253151489</td>
             <td>2.50</td>
             <td>10</td>
             <td>proveedor</td>
-            <td>si</td>
+            <td><p class="status status-si">si</p></td>
             <td>herramientas</td>
         </tr>
 
         <tr>
-            <td> <a href="">editar</a> <a href="">eliminar</a> </td>
+            <td class="button-general">
+                <a class="button-edit" href="#"><i class="bi bi-pencil-fill"></i>Editar</a>
+                <a class="button-delete" href="#"><i class="bi bi-trash"></i> Eliminar</a>
+            </td>
             <td>2</td>
             <td>kit de herramientas</td>
             <td>2589811235849</td>
             <td>10.50</td>
             <td>20</td>
             <td>proveedor 2</td>
-            <td>si</td>
+            <td><p class="status status-si">si</p></td>
+            <td>herramientas</td>
+        </tr>
+
+        <tr>
+            <td class="button-general">
+                <a class="button-edit" href="#"><i class="bi bi-pencil-fill"></i>Editar</a>
+                <a class="button-delete" href="#"><i class="bi bi-trash"></i> Eliminar</a>
+            </td>
+            <td>3</td>
+            <td>kit de herramientas</td>
+            <td>658981129382d</td>
+            <td>5.50</td>
+            <td>20</td>
+            <td>proveedor 3</td>
+            <td><p class="status status-no">no</p></td>
             <td>herramientas</td>
         </tr>
         
