@@ -25,22 +25,64 @@ body {
     font-weight: 800;
     margin-bottom: 2rem;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .container .form {
     width: 100%;
 }
 
-.container .form .input-field {
+.input-field {
     margin-bottom: 15px;
     display: flex;
     align-items: center;
-
+    justify-content: space-between;
+    align-items: center
 }
 
-.container .form .input-field label {
-    width: 300px;
+.category {
+    
+}
+
+.input-field label {
+    width: 200px;
     text-align: end;
-    padding-right: 3rem;
+    padding-right: 1rem;
 
 }
+
+.input {
+    width: 70%;
+    outline: none;
+    border: 1px solid #8d99ae;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    
+}
+
+.custom-select {
+    width: 70%;
+}
+
+.custom-select select {
+    border: 1px solid #8d99ae;
+    appearance: none;
+    width: 100%;
+    height: 100%;
+    padding: 8px 10px;
+    border-radius: 3px;
+    outline: none;
+
+}
+ .input:focus {
+    border: 1px solid #ef233c;
+ }
+
+ .custom-select select:focus {
+    border: 1px solid #ef233c;
+ }
+
+ .input-field .checkbox span {
+    display: flex;
+ }
