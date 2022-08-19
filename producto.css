@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #edf2f4;
+    padding: 0 10px;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 5px 10px #e5e5e5;
+    margin: 20px auto;
+    padding: 2rem;
+
+}
+
+.container .tittle {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.container .form {
+    width: 100%;
+}
+
+.container .form .input-field {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+
+}
+
+.container .form .input-field label {
+    width: 300px;
+    text-align: end;
+    padding-right: 3rem;
+
+}
