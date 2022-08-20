@@ -15,17 +15,24 @@ body {
     width: 100%;
     background-color: white;
     box-shadow: 0 5px 10px #e5e5e5;
-    margin: 20px auto;
-    padding: 2rem;
+    margin: 150px auto;
+    padding: 1rem;
+    border-radius: 0.6rem;
 
 }
 
 .container .tittle {
     font-size: 1.5rem;
     font-weight: 800;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     text-transform: uppercase;
     text-align: center;
+    box-shadow: 0 5px 10px #e5e5e5;
+    
+}
+
+p {
+    padding: 15px;
 }
 
 .container .form {
@@ -40,9 +47,6 @@ body {
     align-items: center
 }
 
-.category {
-    
-}
 
 .input-field label {
     width: 200px;
@@ -83,6 +87,38 @@ body {
     border: 1px solid #ef233c;
  }
 
- .input-field .checkbox span {
+ .checkbox {
     display: flex;
+    justify-content: center;
+    padding-right: 90px;
+ }
+
+ .checkbox span {
+    padding-left: 10px;
+
+ }
+
+ .input-field .btn {
+    margin-top: 10px;
+    display: flex;
+    border-radius: 5px;
+    padding: 0.6rem 1rem;
+    text-align: center;
+    justify-content: center;
+    background-color: #2b2d42;
+    color: #ffff;
+    box-shadow: 0 2px 5px #e5e5e5;
+    border: 0;
+    font-weight: 400;
+    text-decoration: none;
+ }
+
+ .input-field .btn:hover {
+    background-color: #6a994e;
+    color: white;
+    transition: 0.5s;
+ }
+
+ .input-field .btn-cancel:hover {
+    background: #ef233c;
  }

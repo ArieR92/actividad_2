@@ -21,7 +21,7 @@ table {
     background-color: #ffff;
     text-align: left;
     overflow: hidden;
-    border-radius: 3px;
+    border-radius: 0.6rem;
 
 }
 
@@ -33,6 +33,7 @@ thead {
 .button-general {
     display: flex;
 }
+
 
 i{
     padding-right: 5px;
